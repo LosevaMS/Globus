@@ -9,9 +9,9 @@ public class Task1 {
         try {
             System.out.print("Enter first number ");
             Scanner in = new Scanner(System.in);
-            float number1 = in.nextInt();
+            float number1 = in.nextFloat();
             System.out.print("Enter second number ");
-            float number2 = in.nextInt();
+            float number2 = in.nextFloat();
             System.out.print("Enter operation:" + "\n" +
                     "1 - multiplication" + "\n" +      //*
                     "2 - division" + "\n" +            // /
